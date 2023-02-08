@@ -78,7 +78,7 @@
         right: 38px;
     }
     .about_line.middle .box_inner {
-        margin: 0 0 30px 150px;
+        margin: 0 0 30px 149px;
     }
     .right .line_inner::before {
         width: 182px;
@@ -87,7 +87,7 @@
         right: 30px;
     }
     .about_line.right .box_inner {
-        margin: 0 0 30px 152px;
+        margin: 0 0 30px 154px;
     }
     .bullets {
         width: 20%;
