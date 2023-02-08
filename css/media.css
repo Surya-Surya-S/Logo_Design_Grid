@@ -56,7 +56,7 @@
         padding: 0 0 0 0;
     }
     .box_inner {
-        margin: 0 0 30px 116px;
+        margin: 0 0 30px 115px;
     }
     .line_inner, .middle .line_inner, .right .line_inner {
         width: 220px;
@@ -78,7 +78,7 @@
         right: 38px;
     }
     .about_line.middle .box_inner {
-        margin: 0 0 30px 151px;
+        margin: 0 0 30px 150px;
     }
     .right .line_inner::before {
         width: 182px;
@@ -87,7 +87,7 @@
         right: 30px;
     }
     .about_line.right .box_inner {
-        margin: 0 0 30px 151px;
+        margin: 0 0 30px 152px;
     }
     .bullets {
         width: 20%;
@@ -183,6 +183,9 @@
         margin: 0 auto 60px;
         flex-direction: column;
     }
+    .social_link{
+        margin-left: -64px;
+    }
     .address_contact div {
         display: flex;
         justify-content: space-around;
@@ -195,7 +198,7 @@
         right: -2%;
     }
     .address_contact h4.support::after {
-        left: 113%;
+        left: 119%;
     }
     .address_contact p {
         width: 43%;
@@ -209,11 +212,6 @@
     }
     p.support {
         margin: 0 22px 0 0;
-    }
-    .social_link {
-        display: flex;
-        align-items: center;
-        justify-content: normal;
     }
     .give_details{
         width: 70%;
