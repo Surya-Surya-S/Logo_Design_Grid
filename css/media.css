@@ -1,0 +1,239 @@
+@media screen and (max-width: 576px) {
+    .header {
+        display: flex;
+    }
+    .logo_img{
+        width: 140px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu li a{
+        font-size: 10px;
+    }
+    .menu_line{
+        display: flex;
+        margin-bottom: 18px;
+    }
+    .banner_content {
+        width: 80%;
+    }
+    .banner_content h2 {
+        font-size: 50px;
+    }
+    .banner_content p {
+        width: 84%;
+    }
+    .banner_link{
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .learn{
+        margin-bottom: 16px;
+    }
+    .learn.active a {
+        padding: 10px 18px 12px;
+    }
+    #about {
+        padding: 74px 0 0 0;
+    }
+    .about_inner {
+        margin: 0 auto 90px;
+    }
+    .about_bottom, .team_details, .foot_inner{
+        grid-template-columns: auto;
+    }
+    .about_top{
+        width: 72%;
+    }
+    .about_line{
+        width: auto;
+        margin: 0 auto 20px;
+    }
+    .about_line.middle, .about_line.right {
+        margin-left: auto;
+        padding: 0 0 0 0;
+    }
+    .box_inner {
+        margin: 0 0 30px 116px;
+    }
+    .line_inner, .middle .line_inner, .right .line_inner {
+        width: 220px;
+        margin: 0 auto;
+    }
+    .line_inner::before {
+        width: 140px;
+    }
+    .line_inner::after {
+        right: 72px;
+    }
+    .about_line p {
+        margin: 6px 0 0 0;
+    }
+    .middle .line_inner::before {
+        width: 178px;
+    }
+    .middle .line_inner::after {
+        right: 38px;
+    }
+    .about_line.middle .box_inner {
+        margin: 0 0 30px 151px;
+    }
+    .right .line_inner::before {
+        width: 182px;
+    }
+    .right .line_inner::after {
+        right: 30px;
+    }
+    .about_line.right .box_inner {
+        margin: 0 0 30px 151px;
+    }
+    .bullets {
+        width: 20%;
+    }
+    .services_inner p, .team_inner p {
+        width: 88%;
+        line-height: 25px;
+        margin: 0 auto 50px;
+    }
+    .service_sec {
+        display: inline-block;
+    }
+    .service_content, .service_content2, .service_content3 {
+        width: 80%;
+    }
+    .service_content p, .service_content2 p, .service_content3 p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .news_inner {
+        width: 90%;
+    }
+    .news_link {
+        width: 26%;
+    }
+    .news_content, .add_details .add_top, .add_details .information {
+        display: flex;
+        flex-direction: column;
+    }
+    .news_details, .team_list {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+    .news_details.left {
+        margin: auto auto 30px auto;
+    }
+    .news_para {
+        width: 100%;
+    }
+    .news_img {
+        width: 484px;
+    }
+    span.arr::after {
+        left: 5px;
+    }
+    .news_details.right {
+        margin-right: auto;
+    } 
+    .overview_count::after {
+        height: 80px;
+        top: 0;
+    }
+    .overview_count h4 {
+        font-size: 50px;
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+    .overview_count p {
+        font-size: 14px;
+    }
+    .team_inner p{
+        padding: 0 0 60px;
+        margin: 0 auto;
+    }
+    .team_img {
+        width: 124px;
+        height: 90px;
+    }
+    .team_img.middle {
+        width: 188px;
+    }
+    .team_img.right{
+        width: 152px;
+    }
+    .member_data p{
+        width: 100%;
+        padding: 0 0 30px;
+        margin-left: -2px;
+    }
+    .member_data.middle p, .member_data.right p{
+        width: 100%;
+    }
+    #contact {
+        padding: 54px 0 0 0;
+    }
+    .contact_inner h2 {
+        padding: 0 0 50px;
+    }
+    .address_contact {
+        width: 90%;
+        display: flex;
+        margin: 0 auto 60px;
+        flex-direction: column;
+    }
+    .address_contact div {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 34px 0;
+    }
+    .address_contact h4 {
+        width: 116px;
+    }
+    .address_contact h4::after {
+        right: -2%;
+    }
+    .address_contact h4.support::after {
+        left: 113%;
+    }
+    .address_contact p {
+        width: 43%;
+        text-align: left;
+    }
+    h4.support {
+        width: 38%;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: -18px;
+    }
+    p.support {
+        margin: 0 22px 0 0;
+    }
+    .social_link {
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+    }
+    .give_details{
+        width: 70%;
+        margin: 0 auto 24px;
+    }
+    .send_btn {
+        margin: 0 0 50px 286px;
+    }
+    .foot_content{
+        width: 58%;
+        margin: 0 auto 40px;
+    }
+    .foot_content, .foot_content.middle, .foot_content.right{
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    .foot_content.middle {
+        margin: 0 auto 40px;
+    }
+    .foot_content.right {
+        margin: 0 auto;
+    }
+}
